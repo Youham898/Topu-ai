@@ -13,13 +13,13 @@ global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Dar es salaam";
-global.github = process.env.GITHUB || "https://github.com/Toputech/Topu-ai";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r";
+global.github = process.env.GITHUB || "";
+global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaioSljLI8YeIvzlZt0C";
+global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaioSljLI8YeIvzlZt0C";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/13f1bb945857eb9b1eca6.jpg";
 global.devs = "255673750170";
-global.sudo = process.env.SUDO || "255673750170";
-global.owner = process.env.OWNER_NUMBER || "255673750170";
+global.sudo = process.env.SUDO || "923178511210";
+global.owner = process.env.OWNER_NUMBER || "923178511210";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -35,7 +35,7 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
 global.read_status = process.env.AUTO_READ_STATUS || "true";
 global.save_status = process.env.AUTO_SAVE_STATUS || "false";
 global.save_status_from = process.env.SAVE_STATUS_FROM || "";
-global.read_status_from = process.env.READ_STATUS_FROM || "";
+global.read_status_from = process.env.READ_STATUS_FROM || "true";
 
 global.api_smd = "https://api-smd-1.vercel.app";
 global.scan = "https://rb.gy/nl69nj";
@@ -49,10 +49,10 @@ module.exports = {
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
   caption: process.env.CAPTION || "𝖂𝖔𝖜 𝖙𝖔𝖕𝖚 𝖒𝖉 𝖍𝖆𝖘 𝖏𝖚𝖘𝖙 𝖌𝖊𝖓𝖊𝖗𝖆𝖙𝖊𝖉 𝖆 𝖓𝖊𝖜 𝖋𝖎𝖑𝖊",
-  author: process.env.PACK_AUTHER || "TOPU",
+  author: process.env.PACK_AUTHER || "HAMZA",
   packname: process.env.PACK_NAME || "♥️",
-  botname: process.env.BOT_NAME || "TOP-Md",
-  ownername: process.env.OWNER_NAME || "TOPU",
+  botname: process.env.BOT_NAME || "YOU-Md",
+  ownername: process.env.OWNER_NAME || "HAMZA",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
@@ -63,7 +63,7 @@ module.exports = {
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "public",
   LANG: (process.env.THEME || "TOPU").toUpperCase(),
 };
 global.rank = "updated";
